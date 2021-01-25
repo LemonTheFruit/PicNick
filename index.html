@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PicNick</title>
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Bootstrap CSS Import -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- Google Font Import -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Import -->
+  <script src="https://kit.fontawesome.com/13315461f3.js" crossorigin="anonymous"></script>
+
+  <!-- Custom Stylesheet Import
+   we import this last because CSS Styles are
+  applied in the order they are linked in HTML, this style sheet must overwrite
+  the bootstrap stylesheet in order to display custom CSS  -->
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">picnick</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Dating, simplified.</h1>
+          <a type="button" href="images/Poppy-1.jpg" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span> Download</a> <!-- space required after inserting icon from font awesome -->
+          <a type="button" href="images/Poppy-3.jpg" class="btn btn-outline-light btn-lg download-button"><span class="fab fa-google-play"></span> Download</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="title-img" src="images/iphone6n.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+  </section>
+  </div>
+
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="ficon fas fa-check-circle fa-4x"></i>
+          <h3 class="ficon-text">Easy to use.</h3>
+          <p>Welcome to a user friendly, accessable interface.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="ficon fas fa-bullseye fa-4x"></i>
+          <h3 class="ficon-text">Curated Selection</h3>
+          <p>Reduce decision making fatigue and increase focus.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="ficon fas fa-heart fa-4x"></i>
+          <h3 class="ficon-text">Guaranteed to work.</h3>
+          <p>Match with Nick, or your money back.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-text container-fluid">
+          <h2 class="testimonial-text"> "I no longer have to choose between every Tom, Rick or Tony. I've found Nick. Thanks PicNick!"</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="Emma">
+          <em>Emma, Texas</em>
+        </div>
+        <div class="carousel-item carousel-text container-fluid">
+          <h2 class="testimonial-text"> "He's got cute pictures of his dogs! I'm satisfied!"</h2>
+          <img class="testimonial-image" src="images/4513.jpg" alt="Anita">
+          <em>Anita, Ontario</em>
+        </div>
+        <div class="carousel-item carousel-text container-fluid">
+          <h2 class="testimonial-text"> "I mean, he's not exactly my type, but he's cool to play video games with! Appreciate it, PickNick."</h2>
+          <img class="testimonial-image" src="images/Steve_Burns.png" alt="Steve">
+          <em>Steve, New York</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span> <!-- Aria Hidden adds accessability to users with visual impairments -->
+        <span class="sr-only">Previous</span> <!-- Screen reader will instead just read "Previous"-->
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span> <!-- As stated above, aria-hidden will hide the buttons from the screen reader, cutting down on lines of dialogue.-->
+        <span class="sr-only">Next</span> <!-- Screen reader will just read "Next"-->
+      </a>
+    </div>
+
+  </section>
+
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Everybody's Needs</h2>
+    <p>Simple and affordable price plans for you and your friends.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bronze</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>One Match</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <a class="btn btn-lg btn-block btn-outline-dark" type="button" href="images/Poppy-1.jpg">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gold</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>One Match</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <a class="btn btn-lg btn-block btn-dark" type="button" href="images/Poppy-2.jpg">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Platinum</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>One Match</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <a class="btn btn-lg btn-block btn-dark" href="images/Poppy-3.jpg" type="button">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+<div class="container-fluid">
+
+    <h3 class=big-heading>Find your match without any extra hassle.</h3>
+    <a type="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span> Download</a>
+    <a type="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-light btn-lg download-button"><span class="fab fa-google-play"></span> Download</a>
+</div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+<div class="container-fluid">
+    <i class="promo fab fa-twitter"></i>
+    <i class="promo fab fa-facebook-f"></i>
+    <i class="promo fab fa-instagram"></i>
+    <i class="promo fas fa-envelope"></i>
+    <p class="copyright">© Copyright 2021 PicNick</p>
+</div>
+  </footer>
+
+  <!-- Bootstrap Javascript Import -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
