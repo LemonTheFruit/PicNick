@@ -13,8 +13,6 @@ p {
   color: #8f8f8f;
 }
 
-
-
 /* Headings */
 .big-heading {
   font-family: 'Montserrat';
@@ -158,6 +156,9 @@ p {
   padding: 100px;
 }
 
+.secret {
+  color: white;
+}
 /* Footer */
 
 .promo {
